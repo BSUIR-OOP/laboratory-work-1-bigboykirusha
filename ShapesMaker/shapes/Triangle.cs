@@ -24,7 +24,6 @@ namespace ShapesMaker
 
         public override void Draw(Canvas canv)
         {
-            // Triangle(representis through polygon(cause learn C# only few hours))
             Polygon trian = new Polygon();
             trian.Fill = Brushes.Crimson;
             trian.Stroke = Brushes.DarkCyan;

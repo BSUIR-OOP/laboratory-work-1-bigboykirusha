@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace ShapesMaker
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    /// Interaction logic for MainWindow.xaml.https://professorweb.ru/my/WPF/base_WPF/level2/2_3.php
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -33,17 +31,7 @@ namespace ShapesMaker
             Triangle triangle = new Triangle(new Point(600, 100), new Point(650, 50), new Point(700, 100));
             Elipse elipse = new Elipse(new Point(50, 50), 100, 50);
 
-            // Message boxes to know the cirtain coordinates of my shapes
-            /*MessageBox.Show(elipse.Draw());
-            MessageBox.Show(circle.Draw());
-            MessageBox.Show(square.Draw());
-            MessageBox.Show(rectangle.Draw());
-            MessageBox.Show(triangle.Draw());
-            MessageBox.Show(line.Draw());*/
 
-            // Create a canvas because Window.AddChild will throw exception when U add more than one 
-            // object to it, because Window is a ContentControl. Page allowed only 1 chil, so this 
-            // child will be a canv and I will place all other objects in canv;
             Canvas canv = new Canvas();
 
             List <Shape> shapes = new List <Shape>();
