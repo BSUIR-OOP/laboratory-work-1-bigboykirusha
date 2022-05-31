@@ -1,1 +1,1 @@
-# laboratory-work-one-oop
+# laboratory-work-one
