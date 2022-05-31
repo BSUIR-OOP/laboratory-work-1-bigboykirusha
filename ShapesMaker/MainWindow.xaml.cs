@@ -15,7 +15,6 @@ using System.Windows.Shapes;
 
 namespace ShapesMaker
 {
-    /// Interaction logic for MainWindow.xaml.https://professorweb.ru/my/WPF/base_WPF/level2/2_3.php
     public partial class MainWindow : Window
     {
         public MainWindow()
